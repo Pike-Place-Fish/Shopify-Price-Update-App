@@ -5,12 +5,9 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace ShopifyPriceUpdateApp
-{
-    public class Global : System.Web.HttpApplication
-    {
-        protected void Application_Start(object sender, EventArgs e)
-        {
-        }
+namespace PriceUpdateApp {
+  public class Global : System.Web.HttpApplication {
+    protected void Application_Start(object sender, EventArgs e) {
     }
+  }
 }
