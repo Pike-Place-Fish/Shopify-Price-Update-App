@@ -70,6 +70,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Authenticate\Default.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="packages.config" />
     <Content Include="appSettings.config" />
     <None Include="Web.Debug.config">
@@ -82,16 +84,19 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Test\OAuth2.aspx" />
+    <Content Include="UpdatePrices\Default.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\Ignia.Shopify.PriceUpdateApp.Authentication\ShopifyAuthenticator.cs" />
+    <Content Include="App_Code\Ignia.Shopify.PriceUpdateApp.Authentication\ShopifyAuthenticationData.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Code\" />
+    <Folder Include="App_Code\Ignia.Shopify.PriceUpdateApp.Products\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>

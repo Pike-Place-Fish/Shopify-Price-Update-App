@@ -1,0 +1,1 @@
+<%@ Response.Redirect("/Authenticate/Default.aspx") %>
