@@ -3,12 +3,12 @@
 namespace Ignia.Shopify.PriceUpdateApp.Authentication {
 
   /*============================================================================================================================
-  | CLASS: SHOPIFY AUTHENTICATON DATA
+  | CLASS: AUTHENTICATON DATA
   \---------------------------------------------------------------------------------------------------------------------------*/
   /// <summary>
   ///   Container object for authentication properties returned as part of the Shopify OAuth authentication response.
   /// </summary>
-  public class ShopifyAuthenticationData {
+  public class AuthenticationData {
 
     /// <summary>
     ///   The authorization code with which to make authenticated Shopify requests.

@@ -8,14 +8,14 @@ using RestSharp.Authenticators;
 namespace Ignia.Shopify.PriceUpdateApp {
 
   /*============================================================================================================================
-  | CLASS: SHOPIFY AUTHENTICATOR
+  | CLASS: AUTHENTICATOR
   \---------------------------------------------------------------------------------------------------------------------------*/
   /// <summary>
   ///   Extends the global <see cref="Startup" /> class by providing methods it can use to configure authorization.
   /// </summary>
   ///  <param name="accessToken">The Shopify application's access token (API key).</param>
-  public class ShopifyAuthenticator : OAuth2Authenticator {
-    public ShopifyAuthenticator(string accessToken) : base(accessToken) {
+  public class Authenticator : OAuth2Authenticator {
+    public Authenticator(string accessToken) : base(accessToken) {
     }
 
     /*==========================================================================================================================
